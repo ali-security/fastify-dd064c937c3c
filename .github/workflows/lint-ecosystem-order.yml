@@ -1,11 +1,7 @@
 name: Lint Ecosystem Order
 
 on:
-  pull_request:
-    branches:
-      - main
-    paths:
-      - "**/Ecosystem.md"
+  workflow_dispatch: {}
 
 permissions:
   contents: read

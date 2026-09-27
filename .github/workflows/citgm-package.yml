@@ -29,22 +29,6 @@ on:
           - 'ubuntu-latest'
           - 'windows-latest'
           - 'macos-latest'
-  workflow_call:
-    inputs:
-      package:
-        description: 'Package to test'
-        required: true
-        type: string
-      node-version:
-        description: 'Node version to test'
-        required: true
-        type: string
-        default: '20'
-      os:
-        description: 'Operating System'
-        required: false
-        type: string
-        default: 'ubuntu-latest'
 
 permissions:
   contents: read

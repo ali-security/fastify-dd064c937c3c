@@ -1,9 +1,6 @@
 name: CITGM
 
 on:
-  pull_request:
-    types: [labeled]
-  
   workflow_dispatch:
     inputs:
       node-version:

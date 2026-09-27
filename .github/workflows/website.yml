@@ -1,15 +1,7 @@
 name: website
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'docs/**'
-      - '**.md'
-  release:
-    types:
-      - released
+  workflow_dispatch: {}
 
 permissions:
   contents: read

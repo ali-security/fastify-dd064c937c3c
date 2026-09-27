@@ -1,7 +1,6 @@
 name: Test compare
 on:
-  pull_request:
-    types: [opened, reopened, synchronize, labeled]
+  workflow_dispatch: {}
 
 permissions:
   contents: read

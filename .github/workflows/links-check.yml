@@ -1,10 +1,7 @@
 name: Internal Links Check
 
 on:
-  pull_request:
-    paths:
-      - 'docs/**'
-      - '*.md'
+  workflow_dispatch: {}
 
 permissions:
   contents: read
